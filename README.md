@@ -1,5 +1,4 @@
-# Project Name
-
+# Newsweek.com Home Page - Bootstrap
 > One paragraph statement about the project.
 
 ![screenshot](./app_screenshot.png)
@@ -41,17 +40,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Alvaro Paz**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@alvaropazz](https://github.com/alvaropazz)
+- Twitter: [@alvaropazz](https://twitter.com/alvaropazz)
+- Linkedin: [linkedin](https://www.linkedin.com/in/alvaropaz/)
 
 ## 🤝 Contributing
 
