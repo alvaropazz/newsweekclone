@@ -11,14 +11,14 @@
 </head>
 <body>
   
-  <header class="container-fluid">
+  <header>
 
-    <nav class="navbar row d-lg-none">
+    <nav class="container-fluid navbar d-lg-none">
       <div class="left">
-        <a href="#" class="navbar-brand row m-1"><img  class="nw-logo m-1"  src="images/newsweek-logo-black-and-white-cropped.png" alt="logo" style="width:132px;height:auto"></a>&nbsp;
-        <a href="#" class="weather-section row m-1">
-          <img class="m-1 d-none d-sm-inline" src="images/weather.png" alt="weather" style="width:24px;height:24px;">&nbsp;&nbsp;&nbsp;
-          <span class="weather-degree p-0  m-1 d-none d-sm-inline">&nbsp;20°</span>
+        <a href="#" class="navbar-brand"><img  class="nw-logo"  src="images/newsweek-logo-black-and-white-cropped.png" alt="logo" style="width:132px;height:auto"></a>&nbsp;
+        <a href="#" class="weather-section">
+          <img class="d-none d-sm-inline" src="images/weather.png" alt="weather" style="width:24px;height:24px;">&nbsp;&nbsp;&nbsp;
+          <span class="weather-degree m-1 d-none d-sm-inline">&nbsp;20°</span>
           <span class="weather-location m-1 d-none d-md-inline">&nbsp;QUITO, EC <i class="fas fa-chevron-right"></i></span>
         </a>
       </div>
@@ -29,8 +29,8 @@
       </div>
     </nav>
 
-    <nav class="navbar row d-none d-lg-flex">
-      <div class="top-bar row d-none d-lg-flex">
+    <nav class="container-fluid navbar d-none d-lg-flex">
+      <div class="top-bar d-none d-lg-flex">
         <div class="left ml-4">
           <a href="#" class="weather-section m-1">
             <div><img class="weather-icon" src="images/weather.png" alt="weather" style="width:24px;height:24px;"><span class="weather-degree p-0  m-1">&nbsp;20°</span><span class="weather-location m-1">&nbsp;QUITO, EC <i class="fas fa-chevron-right"></i></span></div>
@@ -44,7 +44,7 @@
         </div>
       </div>
     </nav>
-    <div class="bottom-bar row d-none d-lg-flex">
+    <div class="bottom-bar pl-2 pr-2 d-none d-lg-flex">
       <ul class="menu-list p-1">
         <li class="menu-items"><a href="#">U.S.</a></li>
         <li class="menu-items"><a href="#">World</a></li>
@@ -65,7 +65,126 @@
 
   <main>
 
-    <section class="newspapaper">
+    <section class="newspapaper newspaper-small-size">
+
+      <div class="top-story">
+        <p class="top-story-head">TOP STORY</p>
+        <div class="top-story-image-container">
+          <a href="#"><img class="top-story-image" src="images/1top.webp" alt="coronavirus" style="width:100%;"></a>
+          <p class="top-story-topic"><a href="#">WORLD</a></p>
+        </div>
+        <p class="top-story-title"><a href="#">U.S. Pledges to Help Iran, North Korea Fight Coronavirus</a></p>
+        <p class="top-story-bite">Both Pyongyang and Tehran have accused Washington of using trade restrictions that harm civilian populations as a tool to coerce them into adhering to U.S. policy.</p>
+        <div class="aside-container">
+          <a href="#"><img class="aside-image" src="images/1top-aside.webp" alt="coronavirus" style="width:95px;height:95px"></a>
+          <div class="aside-text">
+            <p class="aside-title"><a href="#">Coronavirus Could Infect 'Many Millions' in U.S. if We're Complacent, Infectious Disease Expert Says</a></p>
+            <p class="aside-bite">The director of the National Institute of Allergy and Infectious Diseases urges everyone, even those in areas where there isn't community transmission, to take action to slow the virus' spread.</p>
+          </div>  
+        </div>
+      </div>
+
+      <div class="featured-stories">
+
+        <div>
+          <p class="top-story-head">FEATURED STORIES</p>
+          <div class="top-story-image-container">
+            <a href="#"><img class="top-story-image" src="images/1featured.webp" alt="weinstein" style="width:100%;"></a>
+            <p class="top-story-topic"><a href="#">NEWS</a></p>
+          </div>
+          <p class="top-story-title"><a href="#">Harvey Weinstein Speaks as Judge Imposes 23-Year Prison Sentence</a></p>
+          <p class="top-story-bite">A Manhattan jury convicted Weinstein on two felony sex charges, while acquitting him on a more serious rape charge and two counts of predatory sexual assault.</p>
+        </div>
+          
+        <div>
+          <div class="top-story-image-container">
+            <a href="#"><img class="top-story-image" src="images/2featured.webp" alt="sanders" style="width:100%;"></a>
+            <p class="top-story-topic"><a href="#">U.S.</a></p>
+          </div>
+          <p class="top-story-title"><a href="#">Bernie Sanders Isn't Going Anywhere</a></p>
+          <p class="top-story-bite">Despite a disappointing Super Tuesday 2 performance, Sanders claimed he's winning two things in the Democratic primary: the generational debate and the ideological debate.</p>
+        </div>
+
+        <div>
+          <div class="top-story-image-container">
+            <a href="#"><img class="top-story-image" src="images/3featured.webp" alt="coronavirus" style="width:100%;"></a>
+            <p class="top-story-topic"><a href="#">WORLD</a></p>
+          </div>
+          <p class="top-story-title"><a href="#">Coronavirus Death Toll Hits 4,300, More Than 66,000 People Have Recovered</a></p>
+          <p class="top-story-bite">The outbreak continues across Europe, Asia and the U.S., which has reported its first deaths in New Jersey and South Dakota.</p>
+        </div>
+
+        <div>
+          <div class="top-story-image-container">
+            <a href="#"><img class="top-story-image" src="images/4featured.webp" alt="putin" style="width:100%;"></a>
+            <p class="top-story-topic"><a href="#">WORLD</a></p>
+          </div>
+          <p class="top-story-title"><a href="#">Russia Passes Bill Allowing Putin to Stay as President Past 2024</a></p>
+          <p class="top-story-bite">The legislation needs to be approved by Russia's Constitutional Court and will go to a referendum on April 22.</p>
+        </div>
+
+      </div>
+
+      <div class="opinion">
+
+        <p class="top-story-head">OPINION</p>
+
+        <div class="opinion-container">
+          <img src="images/opinion1.webp" alt="opinion" style="width:63px;height:63px;">
+          <div class="opinion-text">
+            <p><a href="#">A Woman of Color VP Is More Than a Consolation Prize. It's a Necessity</a></p>
+            <p>BY AIMEE ALLISON</p>
+          </div>
+        </div>
+
+        <div class="opinion-container">
+          <img src="images/opinion2.png" alt="opinion" style="width:63px;height:63px;">
+          <div class="opinion-text">
+            <p><a href="#">Young and Unafraid of Coronavirus? Good for You. Now Stop Killing People</a></p>
+            <p>BY A DOCTOR IN WESTERN EUROPE</p>
+          </div>
+        </div>
+
+        <div class="opinion-container">
+          <img src="images/opnion3.webp" alt="opinion" style="width:63px;height:63px;">
+          <div class="opinion-text">
+            <p><a href="#">In the Taliban-U.S. Agreement, Everybody Wins—Except Women</a></p>
+            <p>BY SAM HILL</p>
+          </div>
+        </div>
+
+        <div class="opinion-container">
+          <img src="images/opinion4.webp" alt="opinion" style="width:63px;height:63px;">
+          <div class="opinion-text">
+            <p><a href="#">Trump's Bungling of Coronavirus Started With Iran</a></p>
+            <p>BY JAMAL ABDI</p>
+          </div>
+        </div>
+
+        <div class="opinion-container">
+          <img src="images/opinion5.webp" alt="opinion" style="width:63px;height:63px;">
+          <div class="opinion-text">
+            <p><a href="#">The Challenges We Face Call for a Change in Our Culture of Engineering</a></p>
+            <p>BY HAYAATUN SILLEM</p>
+          </div>
+        </div>
+
+        <div class="opinion-container">
+          <img src="images/opinion6.webp" alt="opinion" style="width:63px;height:63px;">
+          <div class="opinion-text">
+            <p><a href="#">Bernie Sanders Is Wrong to Praise Castro's 'Literacy Program'</a></p>
+            <p>BY LEE HABEEB</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- <section class="newspapaper newspaper-medium-large-size">
+      <div class="top-story">
+
+      </div>
 
     </section>
 
@@ -85,7 +204,7 @@
 
   <footer>
 
-  </footer>
+  </footer> -->
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
