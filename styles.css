@@ -304,6 +304,46 @@ nav {
   font-weight: 400;
 }
 
+.culture-travel {
+  padding: 3%;
+}
+
+.culture-travel-image-container {
+  position: relative;
+}
+
+.culture-travel-topic {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 0;
+  background-color: #c2d4d7;
+}
+
+.culture-travel-topic a {
+  font-size: 13px;
+  color: #272727;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-decoration: none;
+}
+
+.culture-travel-title a{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #272727;
+  text-decoration: none;
+}
+
+.culture-travel-bite {
+  font-size: 15px;
+  color: rgba(39,39,39,.5)
+}
+
+.latest-news {
+  padding: 3%;
+}
+
 @media (min-width: 992px) {
   nav {
     height: 95px;
