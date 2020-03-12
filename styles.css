@@ -179,11 +179,16 @@ nav {
   color: #555;
 }
 
+.opinion-icon-container {
+  background: none;
+  display: flex;
+  width: 63px;
+  height: 63px;
+}
+
 .opinion-icon {
   background-color: #f72210;
   border-radius: 50%;
-  width: 63px;
-  height: 63px;
   background-image: url(images/opinion2.png);
   background-position: center;
   background-repeat: no-repeat;
