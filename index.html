@@ -13,7 +13,7 @@
   
   <header>
 
-    <nav class="container-fluid navbar d-lg-none">
+    <nav class="container-fluid navbar d-xl-none">
       <div class="left">
         <a href="#" class="navbar-brand"><img  class="nw-logo"  src="images/newsweek-logo-black-and-white-cropped.png" alt="logo" style="width:132px;height:auto"></a>&nbsp;
         <a href="#" class="weather-section">
@@ -29,8 +29,8 @@
       </div>
     </nav>
 
-    <nav class="container-fluid navbar d-none d-lg-flex">
-      <div class="top-bar d-none d-lg-flex">
+    <nav class="container-fluid navbar d-none d-xl-flex">
+      <div class="top-bar d-none d-xl-flex">
         <div class="left ml-4">
           <a href="#" class="weather-section m-1">
             <div><img class="weather-icon" src="images/weather.png" alt="weather" style="width:24px;height:24px;"><span class="weather-degree p-0  m-1">&nbsp;20°</span><span class="weather-location m-1">&nbsp;QUITO, EC <i class="fas fa-chevron-right"></i></span></div>
@@ -44,7 +44,7 @@
         </div>
       </div>
     </nav>
-    <div class="bottom-bar pl-2 pr-2 d-none d-lg-flex">
+    <div class="bottom-bar pl-2 pr-2 d-none d-xl-flex">
       <ul class="menu-list p-1">
         <li class="menu-items"><a href="#">U.S.</a></li>
         <li class="menu-items"><a href="#">World</a></li>
@@ -65,7 +65,7 @@
 
   <main>
 
-    <section class="newspapaper newspaper-small-size">
+    <section class="newspaper">
 
       <div class="top-story">
         <p class="top-story-head">TOP STORY</p>
@@ -87,13 +87,14 @@
       <div class="featured-stories">
 
         <div>
-          <p class="top-story-head">FEATURED STORIES</p>
+          <p class="top-story-head featured-stories-header">FEATURED STORIES</p>
           <div class="top-story-image-container">
             <a href="#"><img class="top-story-image" src="images/1featured.webp" alt="weinstein" style="width:100%;"></a>
             <p class="top-story-topic"><a href="#">NEWS</a></p>
           </div>
           <p class="top-story-title"><a href="#">Harvey Weinstein Speaks as Judge Imposes 23-Year Prison Sentence</a></p>
-          <p class="top-story-bite">A Manhattan jury convicted Weinstein on two felony sex charges, while acquitting him on a more serious rape charge and two counts of predatory sexual assault.</p>
+          <p class="top-story-bite featured-stories-bite">A Manhattan jury convicted Weinstein on two felony sex charges, while acquitting him on a more serious rape charge and two counts of predatory sexual assault.</p>
+          <p class="featured-stories-aside d-none d-md-block"><a href="#">Coronavirus Cases Surpass 126,000, More Than 1,000 Recover in Italy</a></p>
         </div>
           
         <div>
@@ -102,7 +103,7 @@
             <p class="top-story-topic"><a href="#">U.S.</a></p>
           </div>
           <p class="top-story-title"><a href="#">Bernie Sanders Isn't Going Anywhere</a></p>
-          <p class="top-story-bite">Despite a disappointing Super Tuesday 2 performance, Sanders claimed he's winning two things in the Democratic primary: the generational debate and the ideological debate.</p>
+          <p class="top-story-bite featured-stories-bite">Despite a disappointing Super Tuesday 2 performance, Sanders claimed he's winning two things in the Democratic primary: the generational debate and the ideological debate.</p>
         </div>
 
         <div>
@@ -111,7 +112,8 @@
             <p class="top-story-topic"><a href="#">WORLD</a></p>
           </div>
           <p class="top-story-title"><a href="#">Coronavirus Death Toll Hits 4,300, More Than 66,000 People Have Recovered</a></p>
-          <p class="top-story-bite">The outbreak continues across Europe, Asia and the U.S., which has reported its first deaths in New Jersey and South Dakota.</p>
+          <p class="top-story-bite featured-stories-bite">The outbreak continues across Europe, Asia and the U.S., which has reported its first deaths in New Jersey and South Dakota.</p>
+          <p class="featured-stories-aside d-none d-md-block"><a href="#">Harvey Weinstein Speaks as Judge Imposes 23-Year Prison Sentence</a></p>
         </div>
 
         <div>
@@ -120,14 +122,14 @@
             <p class="top-story-topic"><a href="#">WORLD</a></p>
           </div>
           <p class="top-story-title"><a href="#">Russia Passes Bill Allowing Putin to Stay as President Past 2024</a></p>
-          <p class="top-story-bite">The legislation needs to be approved by Russia's Constitutional Court and will go to a referendum on April 22.</p>
+          <p class="top-story-bite featured-stories-bite">The legislation needs to be approved by Russia's Constitutional Court and will go to a referendum on April 22.</p>
         </div>
 
       </div>
 
       <div class="opinion">
 
-        <p class="top-story-head">OPINION</p>
+        <p class="top-story-head opinion-header">OPINION</p>
 
         <div class="opinion-container">
           <a href="#"><img src="images/opinion1.webp" alt="opinion" style="width:63px;height:63px;"></a>
@@ -305,9 +307,9 @@
 
       <div class="culture-travel">
 
-        <p class="top-story-head">CULTURE & TRAVEL</p>
+        <p class="top-story-head culture-travel-header">CULTURE & TRAVEL</p>
 
-        <div class="culture-travel-container">
+        <div class="culture-travel-container culture-travel-container-1">
           <div class="culture-travel-image-container">
             <a href="#"><img class="culture-travel-image" src="images/1culturetravel.webp" alt="airplane" style="width:100%;"></a>
             <p class="culture-travel-topic"><a href="#">Italy</a></p>
@@ -318,7 +320,7 @@
           </div>
         </div>
 
-        <div class="culture-travel-container">
+        <div class="culture-travel-container culture-travel-container-2">
           <div class="culture-travel-image-container">
             <a href="#"><img class="culture-travel-image" src="images/2culturetravel.webp" alt="restaurant" style="width:100%;"></a>
             <p class="culture-travel-topic"><a href="#">Netflix</a></p>
@@ -330,7 +332,7 @@
         </div>
 
         <div class="culture-travel-container">
-          <div class="culture-travel-image-container">
+          <div class="culture-travel-image-container culture-travel-container-3">
             <a href="#"><img class="culture-travel-image" src="images/3culturetravel.webp" alt="space" style="width:100%;"></a>
             <p class="culture-travel-topic"><a href="#">Travel</a></p>
           </div>
@@ -399,13 +401,6 @@
 
     </section>
 
-    <!-- <section class="newspapaper newspaper-medium-large-size">
-      <div class="top-story">
-
-      </div>
-
-    </section>
-
     <section class="magazine">
 
     </section>
@@ -422,7 +417,7 @@
 
   <footer>
 
-  </footer> -->
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
