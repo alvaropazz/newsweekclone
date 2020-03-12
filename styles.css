@@ -356,6 +356,127 @@ nav {
   padding: 3%;
 }
 
+.magazine {
+  padding: 3%;
+}
+
+.magazine-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  font-weight: 700;
+  color: #333;
+}
+
+.nw-section-logo {
+  background-image: url(images/nw-sectio-logo.svg);
+  width: 29px;
+  height: 29px;
+  background-color: #f72210;
+}
+
+.magazine-cover-container {
+  position: relative;
+}
+
+.magazine-date {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 0;
+  background-color: rgba(255,255,255,.9);
+  padding: 6px 12px;
+}
+
+.magazine-date a {
+  color: #f72210;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.magazine-more-features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f5f6;
+}
+
+.magazine-more-features a {
+  color: #000;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.magazine-section-container {
+  display: flex;
+}
+
+.magazine-section {
+  background-color: #f72210;
+  color: #fff;
+  font-weight: 700;
+}
+
+.magazine-theme a {
+  color: #f72210;
+  font-weight: 700;
+}
+
+.magazine-section-title a {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+
+.focus {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 0;
+  background-color:#f72210;
+  padding: 6px 12px;
+}
+
+.focus a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.editors-picks {
+  padding: 3%;
+}
+
+.slideshow {
+  padding: 3%;
+}
+
+.slideshows-icon-container {
+  width: 70px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-indent: 5px;
+  background-image: url(images/slideshow-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.slideshows-icon-container a {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.slideshow-title a {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 @media (min-width: 768px) {
   .newspaper {
     display: grid;
