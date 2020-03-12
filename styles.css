@@ -146,6 +146,52 @@ nav {
   padding: 3%;
 }
 
+.opinion {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+
+.opinion-container {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.opinion-container-last {
+  border-bottom: none;
+}
+
+.opinion-text {
+  margin-left: 15px;
+}
+
+.opinion-text a {
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.opinion-author {
+  font-weight: 700;
+  font-size: 14px;
+  color: #555;
+}
+
+.opinion-icon {
+  background-color: #f72210;
+  border-radius: 50%;
+  width: 63px;
+  height: 63px;
+  background-image: url(images/opinion2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 63px;
+  height: 63px;
+  overflow: hidden;
+}
+
 @media (min-width: 992px) {
   nav {
     height: 95px;
