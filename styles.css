@@ -734,8 +734,9 @@ li a:hover {
   .magazine {
     display: grid;
     grid-template-rows: auto 1fr 1fr;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 24%);
     grid-gap: 15px;
+    justify-content: center;
   }
 
   .magazine-header {
