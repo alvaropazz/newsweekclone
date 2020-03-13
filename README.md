@@ -1,42 +1,20 @@
 # Newsweek.com Home Page - Bootstrap
-> One paragraph statement about the project.
+> This project is about cloning the Newsweek.com homepage using Bootstrap where applicable.
 
-![screenshot](./app_screenshot.png)
+![image](https://user-images.githubusercontent.com/58086801/76596664-bcb05480-64cc-11ea-813c-305f16b8ca02.png)
 
-Additional description about the project and its features.
+#This project used HTML5, CSS3 and the Bootstrap Framework to achieve a clone of the Newsweek.com website.
+#Besides Boostrap, this project used the CSS3 grids, flexbox and media query features.
+#This website uses the 4 Bootstrap displays, sm, md, lg and xl.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5, CSS#
+- Bootstrap
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+[Live Demo Link](https://alvaropazz.github.io/newsweekclone/)
 
 ## Authors
 
@@ -50,7 +28,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/alvaropazz/newsweekclone/issues).
 
 ## Show your support
 

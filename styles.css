@@ -13,6 +13,10 @@ nav {
   align-content: space-between;
 }
 
+li a {
+  color: #666;
+}
+
 .right,
 .left {
   display: flex;
@@ -68,7 +72,7 @@ nav {
 }
 
 .top-story-head {
-  color: rgba(3,3,3,.4);
+  color: rgba(3, 3, 3, .4);
   margin: 0;
   padding-bottom: 11px;
   font-size: 16px;
@@ -84,7 +88,7 @@ nav {
   bottom: 0;
   left: 0;
   margin-bottom: 0;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, .9);
   padding: 6px 12px;
 }
 
@@ -340,7 +344,7 @@ nav {
   text-decoration: none;
 }
 
-.culture-travel-title a{
+.culture-travel-title a {
   font-size: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #272727;
@@ -349,7 +353,7 @@ nav {
 
 .culture-travel-bite {
   font-size: 15px;
-  color: rgba(39,39,39,.5)
+  color: rgba(39,39,39,.5);
 }
 
 .latest-news {
@@ -385,7 +389,7 @@ nav {
   bottom: 0;
   left: 0;
   margin-bottom: 0;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, .9);
   padding: 6px 12px;
 }
 
@@ -435,7 +439,7 @@ nav {
   bottom: 0;
   left: 0;
   margin-bottom: 0;
-  background-color:#f72210;
+  background-color: #f72210;
   padding: 6px 12px;
 }
 
@@ -507,7 +511,7 @@ nav {
   border-top: none;
 }
 
-.topic-theme a  {
+.topic-theme a {
   font-size: 22px;
   font-weight: 700;
   color: #f72210;
@@ -622,8 +626,9 @@ li {
   color: #666;
 }
 
-li a {
-  color: #666;
+
+.social-media-items a {
+  font-size: 20px;
 }
 
 li a:hover {
@@ -648,10 +653,6 @@ li a:hover {
   border-right: none;
 }
 
-.social-media-items a {
-  font-size: 20px;
-}
-
 .footer-links-element {
   line-height: 30px;
   font-size: 14px;
@@ -663,7 +664,7 @@ li a:hover {
 }
 
 .footer-bottom {
-  border-top: 1px solid #d9d9d9
+  border-top: 1px solid #d9d9d9;
 }
 
 @media (min-width: 768px) {
@@ -804,7 +805,7 @@ li a:hover {
 
   .newsletter-container {
     flex-direction: row;
-    padding: 0!important;
+    padding: 0 !important;
     justify-content: left;
   }
 
@@ -819,7 +820,7 @@ li a:hover {
   }
 
   .join-bites {
-    padding: 0!important;
+    padding: 0 !important;
     text-align: left;
   }
 
@@ -836,7 +837,7 @@ li a:hover {
 
   .newsweek-footer {
     display: flex;
-    align-items: flex-end
+    align-items: flex-end;
   }
 
   .newsweek-footer-image {
@@ -871,7 +872,7 @@ li a:hover {
   }
 
   .join-category {
-    margin: 0!important;
+    margin: 0 !important;
   }
 
   .join-category-subscribe {
@@ -883,7 +884,7 @@ li a:hover {
   }
 
   .newsletter-container {
-    margin-right: 30px!important;
+    margin-right: 30px !important;
   }
 }
 
@@ -951,6 +952,7 @@ li a:hover {
     font-weight: 300;
     color: #666;
   }
+  
   .menu-items a {
     display: flex;
     align-items: center;
