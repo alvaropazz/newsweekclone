@@ -72,7 +72,7 @@ li a {
 }
 
 .top-story-head {
-  color: rgba(3, 3, 3, .4);
+  color: rgba(3, 3, 3, 0.4);
   margin: 0;
   padding-bottom: 11px;
   font-size: 16px;
@@ -88,7 +88,7 @@ li a {
   bottom: 0;
   left: 0;
   margin-bottom: 0;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 6px 12px;
 }
 
@@ -282,7 +282,7 @@ li a {
   height: 40px;
   background-color: #000;
   color: #d6d6d6;
-  border-radius: 50%; 
+  border-radius: 50%;
   font-size: 14px;
   font-weight: 700;
   text-align: center;
@@ -353,7 +353,7 @@ li a {
 
 .culture-travel-bite {
   font-size: 15px;
-  color: rgba(39,39,39,.5);
+  color: rgba(39, 39, 39, 0.5);
 }
 
 .latest-news {
@@ -389,7 +389,7 @@ li a {
   bottom: 0;
   left: 0;
   margin-bottom: 0;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 6px 12px;
 }
 
@@ -625,7 +625,6 @@ li {
   display: flex;
   color: #666;
 }
-
 
 .social-media-items a {
   font-size: 20px;
@@ -952,7 +951,7 @@ li a:hover {
     font-weight: 300;
     color: #666;
   }
-  
+
   .menu-items a {
     display: flex;
     align-items: center;
