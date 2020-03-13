@@ -477,6 +477,55 @@ nav {
   font-weight: 700;
 }
 
+.topics {
+  padding: 3%;
+}
+
+.topics-container {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #d9d9d9;
+}
+
+.topics-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.topics-aside {
+  display: flex;
+  flex-direction: column;
+}
+
+.topics-aside-element {
+  display: flex;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 10px;
+}
+
+.topics-aside-element-first {
+  border-top: none;
+}
+
+.topic-theme a  {
+  font-size: 22px;
+  font-weight: 700;
+  color: #f72210;
+  text-decoration: none;
+}
+
+.topic-title a {
+  font-size: 18px;
+  color: #000;
+  font-weight: 700;
+}
+
+.topic-aside-title a {
+  font-size: 17px;
+  color: #000;
+  font-weight: 700;
+}
+
 @media (min-width: 768px) {
   .newspaper {
     display: grid;
